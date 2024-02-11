@@ -3,7 +3,8 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
 
-const baseUrl="http://localhost:3000"
+const baseUrl="https://internshala-clone-bacl.vercel.app/"
+
 const JobList = () => {
     const navigate = useNavigate();
 

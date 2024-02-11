@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-const baseUrl="http://localhost:3000"
+const baseUrl="https://internshala-clone-bacl.vercel.app/"
+
 const UserDataForm = () => {
     const [userData, setUserData] = useState({
         name: '',

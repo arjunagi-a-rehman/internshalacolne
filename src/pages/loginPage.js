@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-const baseUrl="http://localhost:3000"
+const baseUrl="https://internshala-clone-bacl.vercel.app/"
 const LoginForm = () => {
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
